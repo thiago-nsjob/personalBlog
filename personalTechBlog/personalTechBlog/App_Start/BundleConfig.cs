@@ -28,7 +28,8 @@ namespace personalTechBlog
                       "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/bundleBlog").Include(
-                     "~/Content/blog/base.css"));
+                     "~/Content/blog/base.css",
+                     "~/Content/blog/article.css"));
 
             BundleTable.EnableOptimizations = true;
         }
