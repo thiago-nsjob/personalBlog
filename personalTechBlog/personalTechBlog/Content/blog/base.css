@@ -1,0 +1,53 @@
+﻿
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.headerContent {
+    background-color: yellowgreen;
+    height: 20vh;
+}
+
+.mainContent {
+    display: flex;
+    flex: 1;
+    height: 80%;
+    width: 100%;
+    flex-flow: row;
+}
+
+    .mainContent > .navBar {
+        flex: 0 0 20vw;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainContent > .articleContainer {
+        flex: 2 1 auto;
+        background-color: #ff6a00;
+        order: 1
+    }
+
+
+.navBar > .navBarContent {
+    flex: 2 0 auto;
+    background-color: #0026ff;
+    order: 1;
+}
+
+.navBar > .navBarFooter {
+    flex: 0 0 10%;
+    order: 2;
+    background-color: #ffd800;
+}
+
+
