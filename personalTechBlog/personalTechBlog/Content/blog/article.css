@@ -10,10 +10,8 @@
 
 
     .articleEntry > .articleSideBar {
-        background-color: #ff6a00;
         flex: 0 1 2px;
         order: 1;
-        color: #ff6a00;
     }
 
 
@@ -31,6 +29,7 @@
     flex: 2 1 auto;
     order: 1;
     max-width: 96%;
+    margin-top: 0.5vh;
 }
 
 .articleContent > .articleHeadline {
@@ -50,4 +49,23 @@
     order: 3;
     white-space: pre-line;
     max-width: 96%;
+
 }
+
+
+
+.articleItemSpacing {
+    margin-left: 0.7vh;
+}
+
+
+.niceOrange {
+    background-color: #ff6a00;
+    color: #ff6a00;
+}
+
+.nicePurple {
+    background-color: #8d0ac6;
+    color: #8d0ac6;
+}
+
